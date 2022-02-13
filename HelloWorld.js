@@ -1,4 +1,4 @@
-const hello = (n =  hello world) => {
+const hello = (n = "hello world") => {
     return n
 }
 
