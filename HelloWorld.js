@@ -1,5 +1,5 @@
-const hello = () => {
-    return ('hello world')
+const hello = (n =  hello world) => {
+    return n
 }
 
 alert(hello);
