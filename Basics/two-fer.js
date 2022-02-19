@@ -3,3 +3,5 @@ const twoFer = (name = 'jon') => {
         'One for' + {name}, + 'One for me'
     )
 }
+
+twoFer()
