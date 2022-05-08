@@ -18,11 +18,13 @@ const selectSort = (arr) => {
   let newArr = [];
   for (let i = 0; i < newArr.length; i++) {
     let smallest = smallestElmt(arr);
-    newArr.append(arr.pop(smallest)); // this action insert the smallest item and add to the newArr
+    newArr.append(arr.pop(smallest)); // this action search the smallest item and add to the newArr
   }
 };
 
 console.log(selectSort([3, 5, 66, 6, 2, 7]));
+
+// The code sort an array from smallest to largest
 
 /*
 the runtime of this function is 0(n^2) because it firstly go through the array n times to find the smallest 
